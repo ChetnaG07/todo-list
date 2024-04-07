@@ -1,0 +1,173 @@
+.main-sec {
+	background: #000;
+	min-height: 100vh;
+}
+
+.tasks-box {
+	max-width: 650px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.taskHeading {
+	font-size: 28px;
+	color: #fff;
+}
+
+.btn-comm {
+	/* background-color: rgb(177, 6, 245); */
+	background-color: rgb(38 103 149);
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	padding: 5px 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.btn-comm span {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.topsection {
+	margin-bottom: 15px;
+}
+.taskBox-sec {
+	/* background-color: rgb(249 48 96); */
+	background-color: #000;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 15px;
+	border-radius: 5px;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.taskBox-sec p {
+	margin-bottom: 0;
+}
+.taskBox-sec h2 {
+	margin-bottom: 0;
+	font-size: 14px;
+	color: #fff;
+	flex: 0 0 25%;
+	width: 25%;
+}
+
+.taskBox-sec .btn-comm {
+	font-size: 13px;
+	padding: 5px 15px;
+	background-color: #920e79;
+}
+
+.taskBox-edit .taskBox-editBox {
+	margin: 0 5px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+}
+.taskBox-subheading {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+.taskBox-priority {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.taskBox-editBox:nth-child(1) {
+	color: #fddb62;
+}
+
+.taskBox-editBox:nth-child(2) {
+	color: #fd2929;
+}
+.taskBox-sec .btn-progress {
+	background-color: #6716a0;
+}
+.taskBox-sec .btn-done {
+	background-color: #187857;
+}
+
+.modal-close-btn {
+	position: absolute;
+	top: 0;
+	right: -25px;
+	color: #ff2f61;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.modal-heading-custom {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+
+.radio-btn-grp {
+	position: relative;
+	flex: 0 0 20%;
+	max-width: 20%;
+	height: 35px;
+	margin: 0 5px;
+}
+.radio-button-custom {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 47, 97, 1);
+	display: inline-block;
+	color: #fff;
+	pointer-events: none;
+	width: 100%;
+	height: 100%;
+	border: 1px solid transparent;
+}
+.radio-btn-grp:nth-child(1) .radio-button-custom.active {
+	border-color: rgba(255, 47, 97, 1);
+	color: rgba(255, 47, 97, 1);
+	background-color: #fff;
+}
+.radio-input-custom {
+	cursor: pointer;
+	margin-right: 0;
+	width: 100%;
+	height: 100%;
+	padding-left: 0;
+}
+.radio-btn-grp:nth-child(2) .radio-button-custom {
+	background-color: #edbc00;
+}
+
+.radio-btn-grp:nth-child(2) .radio-button-custom.active {
+	border-color: #edbc00;
+	color: #edbc00;
+	background-color: #fff;
+}
+
+.radio-btn-grp:nth-child(3) .radio-button-custom {
+	background-color: #1dcb1d;
+}
+.radio-btn-grp:nth-child(3) .radio-button-custom.active {
+	border-color: #1dcb1d;
+	color: #1dcb1d;
+	background-color: #fff;
+}
+
+.radio-input-custom input {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.circle-bar {
+	width: 30px;
+	height: 30px;
+}
